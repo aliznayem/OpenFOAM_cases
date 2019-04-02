@@ -11,7 +11,7 @@ Solver: sonicFoam
 
 Turbulence model: RAS
 
-## Flute simulation
+## Flute simulation (case 1)
 1. Geometry constructed with Rhino 6
 
 2. Meshing tool snappyHexMesh
