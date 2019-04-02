@@ -1,4 +1,6 @@
 ## Flute simulation
+(OpenFOAM 6)
+
 1. Geometry constructed with Rhino 6
 
 2. Meshing tool snappyHexMesh
