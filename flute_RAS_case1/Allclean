@@ -1,0 +1,9 @@
+#!/bin/sh
+# Clean functions
+. $WM_PROJECT_DIR/bin/tools/CleanFunctions
+
+cleanCase
+
+rm -r constant/extendedFeatureEdgeMesh constant/polyMesh
+rm constant/triSurface/*.eMesh
+rm constant/nSurfaceLayers constant/thickness constant/thicknessFraction

@@ -1,0 +1,35 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  6
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      surfaceFeaturesDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+surfaces
+(
+    "closed.stl"
+    "opened.stl"
+    "hole0_inlet.stl"
+    "hole0_outlet.stl"
+    "hole1.stl"
+    "hole2.stl"
+    "hole3.stl"
+    "hole4.stl"
+    "hole5.stl"
+    "hole6.stl"
+    "hole7.stl"
+);
+
+// Identify a feature when angle between faces < includedAngle
+includedAngle   150;
+
+// ************************************************************************* //
