@@ -5,7 +5,9 @@
 
 2. Meshing tool snappyHexMesh
 
-3. pimpleFoam solver (openfoam6)
+3. pimpleFoam solver
+
+4. RAS turbulence model
 #### Assumptions
 1. Embouchure hole half inlet and half outlet.
 
