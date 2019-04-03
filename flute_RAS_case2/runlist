@@ -1,0 +1,8 @@
+# <blockMesh>
+# <surfaceFeatures>
+# <snappyHexMesh>
+# copy all geometry files and directories from last timestep to constant directory
+# delete timesteps
+# <decomposePar>
+# <mpirun> -np 4 pimpleFoam -parallel
+# <reconstructPar>
