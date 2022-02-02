@@ -41,3 +41,13 @@ Turbulence model: RAS
 1. Embouchure hole considered inlet only.
 
 2. Blow angle 45 degree to embouchure hole perpendicular.
+
+## Wigley Hull
+(OpenFOAM 9)
+
+1. Meshing tool snappyHexMesh
+
+2. interFoam
+
+3. RAS turbulence model
+Source case: tutotials/multiphase/interFoam/DTCHull
