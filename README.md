@@ -51,4 +51,4 @@ Turbulence model: RAS
 
 3. RAS turbulence model
 
-Source case: tutotials/multiphase/interFoam/DTCHull
+Source case: tutorials/multiphase/interFoam/DTCHull
