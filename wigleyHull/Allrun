@@ -4,18 +4,19 @@ cd ${0%/*} || exit 1    # Run from this directory
 # Source tutorial run functions
 . $WM_PROJECT_DIR/bin/tools/RunFunctions
 
-# Mesh if necessary
-if ! cloneMesh ../DTCHullMoving . && ! (isTest $@ && cloneMesh ../DTCHullWave .)
-then
-    ./Allmesh
-fi
+./Allmesh
 
 runApplication setFields
 
-runApplication decomposePar
+isParallel=0
+if isParallel then
+    runApplication decomposePar
 
-runParallel $(getApplication)
+    runParallel $(getApplication)
 
-runApplication reconstructPar
+    runApplication reconstructPar
+else
+    runApplication $(getApplication)
+fi
 
 #------------------------------------------------------------------------------
