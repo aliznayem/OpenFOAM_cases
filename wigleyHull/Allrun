@@ -15,7 +15,7 @@ if isParallel then
     runParallel $(getApplication)
 
     runApplication reconstructPar
-else
+else then
     runApplication $(getApplication)
 fi
 
