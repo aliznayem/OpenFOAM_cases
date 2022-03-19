@@ -23,7 +23,7 @@ actions
         source  boxToCell;
         sourceInfo
         {
-            box (-10 -6 -3) (10 0 3);
+            box (-10 -5 -3) (6 0 1.5);
         }
     }
     {
@@ -33,7 +33,7 @@ actions
         source  boxToCell;
         sourceInfo
         {
-            box (-5 -3 -2.5) (9 0 2.5);
+            box (-7 -3 -2) (5 0 1.2);
         }
     }
     {
@@ -43,7 +43,7 @@ actions
         source  boxToCell;
         sourceInfo
         {
-            box (-3 -2 -1) (8 0 2);
+            box (-5 -1.2 -1.2) (4 0 1);
         }
     }
     {
@@ -53,7 +53,7 @@ actions
         source  boxToCell;
         sourceInfo
         {
-            box (-2 -1.7 -0.6) (7 0 1.75);
+            box (-4 -0.7 -0.8) (3 0 0.6);
         }
     }
     {
@@ -63,7 +63,7 @@ actions
         source  boxToCell;
         sourceInfo
         {
-            box (-1 -1.2 -0.3) (6.5 0 1.5);
+            box (-3 -0.3 -0.55) (2.5 0 0.45);
         }
     }
     {
@@ -73,7 +73,7 @@ actions
         source  boxToCell;
         sourceInfo
         {
-            box (-0.5 -0.7 -0.15) (6.3 0 1.35);
+            box (-2.5 -0.25 -0.4) (2.25 0 0.3);
         }
     }
 );

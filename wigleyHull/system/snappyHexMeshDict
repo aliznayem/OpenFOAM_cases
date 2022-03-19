@@ -31,7 +31,7 @@ geometry
     hull
     {
         type triSurfaceMesh;
-        file "wigley-scaled-binary.stl";
+        file "wigley-scaled.stl";
 
         patchInfo
         {
@@ -82,7 +82,7 @@ castellatedMeshControls
     features
     (
          {
-             file "wigley-scaled-binary.eMesh";
+             file "wigley-scaled.eMesh";
              level 0;
          }
     );
@@ -118,7 +118,7 @@ castellatedMeshControls
     // section reachable from the locationInMesh is kept.
     // NOTE: This point should never be on a face, always inside a cell, even
     // after refinement.
-    locationInMesh (-0.7 0 0);
+    locationInMesh (-2.2 0 0);
 
 
     // Whether any faceZones (as specified in the refinementSurfaces)

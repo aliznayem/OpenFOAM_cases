@@ -13,7 +13,7 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-surfaces ("wigley-scaled-binary.stl");
+surfaces ("wigley-scaled.stl");
 
 // Identify a feature when angle between faces < includedAngle
 includedAngle   150;

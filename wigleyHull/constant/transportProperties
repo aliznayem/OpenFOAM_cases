@@ -19,14 +19,14 @@ phases (water air);
 water
 {
     transportModel  Newtonian;
-    nu              1.09e-06;
+    nu              1.1234e-06; // At 15.5 deg C
     rho             998.8;
 }
 
 air
 {
     transportModel  Newtonian;
-    nu              1.48e-05;
+    nu              1.466e-05;  // At 15.5 deg C
     rho             1;
 }
 
