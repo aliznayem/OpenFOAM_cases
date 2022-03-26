@@ -16,7 +16,7 @@ for line in lines:
     vf_lst.append(viscous_f)
     rt_lst.append(pressure_f + viscous_f)
 
-n = 1500
+n = 100
 pf_avg = sum(pf_lst[-n:])/n
 vf_avg = sum(vf_lst[-n:])/n
 rt_avg = sum(rt_lst[-n:])/n
